@@ -9,49 +9,49 @@
 </head>
 
 <body>
-
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Sección 1
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a href="#" class="dropdown-item">Inicio</a></li>
-                                <li><a href="#" class="dropdown-item">Quiénes somos</a></li>
-                                <li><a href="#" class="dropdown-item">Productos</a></li>
-                                <li><a href="#" class="dropdown-item">Promociones</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Sección 2
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a href="#" class="dropdown-item">Novedades</a></li>
-                                <li><a href="#" class="dropdown-item">Blog</a></li>
-                                <li><a href="#" class="dropdown-item">Trabaja con nosotros</a></li>
-                                <li><a href="#" class="dropdown-item">Contacto</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
     <div class="container">
+        <div class="row">
+            <header class="col">
+                <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+        
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Sección 1
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a href="#" class="dropdown-item">Inicio</a></li>
+                                        <li><a href="#" class="dropdown-item">Quiénes somos</a></li>
+                                        <li><a href="#" class="dropdown-item">Productos</a></li>
+                                        <li><a href="#" class="dropdown-item">Promociones</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Sección 2
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a href="#" class="dropdown-item">Novedades</a></li>
+                                        <li><a href="#" class="dropdown-item">Blog</a></li>
+                                        <li><a href="#" class="dropdown-item">Trabaja con nosotros</a></li>
+                                        <li><a href="#" class="dropdown-item">Contacto</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
         <div class="row">
             <section class="col-2">
                 <div class="btn-group-vertical" role="group">
@@ -78,65 +78,69 @@
                 </div>
 
                 <section class="row">
-                    <div>
-                        <h3 class="text-capitalize">Párrafo 1</h3>
-                        <p class="h2 text-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nam
-                            dolore magnam neque non? Nisi magnam eligendi explicabo accusamus aut?</p>
-                    </div>
-                    <div>
-                        <h3 class="text-capitalize">Párrafo 2</h3>
-                        <p class="h3 text-success">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo!</p>
-                    </div>
-                    <div>
-                        <h3 class="text-capitalize">Párrafo 3</h3>
-                        <p class="h5 text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia
-                            eveniet sit sint ullam saepe, itaque incidunt impedit accusamus cupiditate autem, commodi
-                            enim fugiat amet voluptatibus odio numquam quaerat vel voluptates hic, fugit necessitatibus.
-                            Tenetur, nobis!</p>
-                    </div>
-                    <div>
-                        <h3 class="text-capitalize">Párrafo 4</h3>
-                        <p class="h6 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor vero
-                            beatae voluptatum velit aperiam pariatur!</p>
+                    <div class="col">
+                        <div>
+                            <h3 class="text-capitalize">Párrafo 1</h3>
+                            <p class="fs-1 text-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nam
+                                dolore magnam neque non? Nisi magnam eligendi explicabo accusamus aut?</p>
+                        </div>
+                        <div>
+                            <h3 class="text-capitalize">Párrafo 2</h3>
+                            <p class="fs-2 text-success">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo!</p>
+                        </div>
+                        <div>
+                            <h3 class="text-capitalize">Párrafo 3</h3>
+                            <p class="fs-5 text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi officia
+                                eveniet sit sint ullam saepe, itaque incidunt impedit accusamus cupiditate autem, commodi
+                                enim fugiat amet voluptatibus odio numquam quaerat vel voluptates hic, fugit necessitatibus.
+                                Tenetur, nobis!</p>
+                        </div>
+                        <div>
+                            <h3 class="text-capitalize">Párrafo 4</h3>
+                            <p class="fs-6 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor vero
+                                beatae voluptatum velit aperiam pariatur!</p>
+                        </div>
                     </div>
                 </section>
 
                 <section class="row">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                                aria-label="Slide 4"></button>
+                    <div class="col">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./img/gatito-1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./img/gatito-2.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./img/gatito-3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./img/gatito-4.webp" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./img/gatito-1.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./img/gatito-2.webp" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./img/gatito-3.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./img/gatito-4.webp" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
                 </section>
             </div>
@@ -206,10 +210,7 @@
                 </div>
             </section>
         </div>
-
     </div>
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
